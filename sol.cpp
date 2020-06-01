@@ -9,7 +9,7 @@ int main(){
 	bool prime;
 	cin >> n >> m;
 	if(n == 1) n = 2;
-	while(n < m){
+	while(n <= m){
 		prime = true;
 		for(int i = 2; i <= n/2; i++){
 			if(n%i == 0){
